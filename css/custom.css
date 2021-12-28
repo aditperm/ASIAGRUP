@@ -1,0 +1,58 @@
+.btn-primary {
+    background: #94D0CC;
+    border: 0;
+    padding: 10px 20px 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+}
+
+.btn-primary:hover {
+    background: rgb(0, 0, 0);
+    border: 0;
+}
+
+.btn-secondary {
+    background: none;
+    border: 1px solid #BCD0E5;
+    padding: 10px 20px 10px 20px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #173a56;
+}
+
+.btn-secondary:hover {
+    background: rgb(219, 133, 4);
+    border: 0;
+}
+
+.heroadit h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    color: #2f281e;
+}
+
+.heroadit p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    color: #2f281e;
+}
+
+.navbar-nav .nav-link{
+    color: #2f281e;
+}
+
+
+@media only screen and (max-width: 768px ) {
+    .btn-primary, .btn-secondary {
+        margin-top: 10px;
+        margin-left: 0 !important;
+    }
+   
+}
+
+.footer {
+    padding: 50px 30px 50px 30px;
+}
+
+
